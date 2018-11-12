@@ -80,9 +80,11 @@ class Game {
             this.ctx.font = "20px calibri";
             this.ctx.fillStyle = "black";
             this.ctx.fillText("start",770,820);
-            
         };
-
+        let buttonclick : HTMLButtonElement;      
+        this.canvas.addEventListener('click', function(e) {
+           
+        });
         
     }
 

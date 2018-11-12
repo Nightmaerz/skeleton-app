@@ -49,6 +49,7 @@ var Game = (function () {
             _this.ctx.font = "20px calibri";
             _this.ctx.fillStyle = "black";
             _this.ctx.fillText("start", 770, 820);
+            _this.canvas.addEventListener('click', function () { console.log("clicked"); }, false);
         };
     };
     Game.prototype.drawAsteroid = function () {

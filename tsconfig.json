@@ -5,7 +5,7 @@
       "noImplicitAny": true,
       "noImplicitReturns": true,
       "target": "es5",
-      "out": "ts-skeleton-app/build/app.js"
+      "out": "build/app.js"
     },
     "compileOnSave": true
   
